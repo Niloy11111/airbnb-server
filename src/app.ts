@@ -12,13 +12,13 @@ import router from "./app/routes";
 const app: Application = express();
 
 // Middleware setup
-app.use(
-  cors({
-    origin: "http://localhost:5173",
-    credentials: true,
-  })
-);
-// app.use(cors({ origin: "https://basa-finder-client-two.vercel.app" }));
+// app.use(
+//   cors({
+//     origin: "http://localhost:5173",
+//     credentials: true,
+//   })
+// );
+app.use(cors({ origin: "https://airbnb-server-two.vercel.app" }));
 
 app.use(cookieParser());
 app.use(express.json());
@@ -54,7 +54,7 @@ app.get("/", (req: Request, res: Response, next: NextFunction) => {
     },
     developerContact: {
       email: "ektiaruddinniloy859@gmail.com",
-      website: "https://rentMode.com",
+      website: "https://airbnb.com",
     },
   });
 });
