@@ -18,7 +18,7 @@ const app: Application = express();
 //     credentials: true,
 //   })
 // );
-app.use(cors({ origin: "https://airbnb-server-two.vercel.app" }));
+app.use(cors({ origin: "https://property-booking-system-web.netlify.app" }));
 
 app.use(cookieParser());
 app.use(express.json());

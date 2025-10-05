@@ -1,5 +1,5 @@
 {
-  "name": "basafinder-server",
+  "name": "airbnb-server",
   "version": "1.0.0",
   "description": "A e-commerce web application server.",
   "main": "server.js",
